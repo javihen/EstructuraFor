@@ -10,6 +10,7 @@ namespace EstructuraFor
     {
         static void Main(string[] args)
         {
+            //Listar 5 numeros aleatorios.
             int n;
              for(int i = 0; i < 5; i++)
              {
@@ -18,7 +19,7 @@ namespace EstructuraFor
                  Console.WriteLine(n);
 
              }
-
+             //Listar los divisores de un determinado numero entero.
             Console.WriteLine("INGRESE UN NUMERO CUALQUIERA");
             n = int.Parse(Console.ReadLine());
             for(int i = 1; i <= n; i++)
